@@ -1,0 +1,16 @@
+User-agent: *
+Allow: /
+Disallow: /admin
+
+# AI crawlers — allow indexing of all public content
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
